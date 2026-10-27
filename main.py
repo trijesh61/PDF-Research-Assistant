@@ -133,6 +133,6 @@ def main():
     for status in process_pdf(file_path):
         print(status)
 
-
+    generate_answer("what skills does he have?")
 if __name__ == "__main__":
     main()
